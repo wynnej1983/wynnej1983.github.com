@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import favicon from '../images/favicon.ico'
 import { StaticQuery, graphql } from 'gatsby'
 
 import '../assets/scss/main.scss'
@@ -47,6 +48,7 @@ const Layout = ({ children, location }) => {
             ]}
           >
             <html lang="en" />
+            <link rel="icon" href={favicon} />
           </Helmet>
           {content}
         </>

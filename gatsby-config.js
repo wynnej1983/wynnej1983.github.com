@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Jonathan Wynne',
+    title: 'Jonathan Wynne | Senior React/ReactNative Developer',
     author: 'Jonathan Wynne',
     description: 'Jonathan Wynne site'
   },
